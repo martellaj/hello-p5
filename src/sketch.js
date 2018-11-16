@@ -1,7 +1,8 @@
-const p5 = require("p5");
-
-function setup() {}
+function setup() {
+    console.log("In p5 setup function...");
+}
 
 function draw() {
-    p5.ellipse(50, 50, 80, 80);
+    console.log("In p5 draw function...");
+    ellipse(50, 50, 80, 80);
 }

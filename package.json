@@ -1,21 +1,11 @@
 {
     "name": "hello-p5",
     "version": "1.0.0",
-    "description": "",
+    "description": "Creative coding with p5.js.",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "watch": "webpack -w",
-        "serve": "http-server ./dist -c-1"
+        "serve": "http-server -c-1"
     },
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-        "p5": "^0.7.2"
-    },
-    "devDependencies": {
-        "html-webpack-plugin": "^3.2.0",
-        "webpack": "^4.25.1",
-        "webpack-cli": "^3.1.2"
-    }
+    "author": "Joe Martella (@martellaj)",
+    "license": "MIT"
 }
